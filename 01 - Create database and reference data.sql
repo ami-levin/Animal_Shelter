@@ -1,3 +1,12 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ IMPORTANT - Each of my courses uses its own subset of the data and tables from this projcet.               @@
+@@ If you are looking for the practice demo database I use in my courses, follow these links:                 @@
+@@ 1. Query Processing - https://github.com/ami-levin/LinkedIn/tree/master/Query%20Processing/Demo%20Database @@ 
+@@ 2. Window Functions - https://github.com/ami-levin/LinkedIn/tree/master/Window%20Functions/Demo%20Database @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
 -- Create database and reference data tables
 -- SQL Server
 
@@ -166,7 +175,7 @@ FROM
 				('BLUE GASCONY BASSET', 'http://www.fci.be/en/nomenclature/BLUE-GASCONY-BASSET-35.html'), ('BASSET FAUVE DE BRETAGNE', 'http://www.fci.be/en/nomenclature/BASSET-FAUVE-DE-BRETAGNE-36.html'),
 				('PORTUGUESE WATER', 'http://www.fci.be/en/nomenclature/PORTUGUESE-WATER-DOG-37.html'), ('WELSH CORGI (CARDIGAN)', 'http://www.fci.be/en/nomenclature/WELSH-CORGI-CARDIGAN-38.html'),
 				('WELSH CORGI (PEMBROKE)', 'http://www.fci.be/en/nomenclature/WELSH-CORGI-PEMBROKE-39.html'), ('IRISH SOFT COATED WHEATEN TERRIER', 'http://www.fci.be/en/nomenclature/IRISH-SOFT-COATED-WHEATEN-TERRIER-40.html'),
-				('YUGOSLAVIAN SHEPHERD DOG - SHARPLANINA', 'http://www.fci.be/en/nomenclature/YUGOSLAVIAN-SHEPHERD-DOG-SHARPLANINA-41.html'), ('JÄMTHUND', 'http://www.fci.be/en/nomenclature/JAMTHUND-42.html'),
+				('YUGOSLAVIAN SHEPHERD DOG - SHARPLANINA', 'http://www.fci.be/en/nomenclature/YUGOSLAVIAN-SHEPHERD-DOG-SHARPLANINA-41.html'), ('JÃ„MTHUND', 'http://www.fci.be/en/nomenclature/JAMTHUND-42.html'),
 				('BASENJI', 'http://www.fci.be/en/nomenclature/BASENJI-43.html'), ('BERGER DE BEAUCE', 'http://www.fci.be/en/nomenclature/BERGER-DE-BEAUCE-44.html'),
 				('BERNESE MOUNTAIN', 'http://www.fci.be/en/nomenclature/BERNESE-MOUNTAIN-DOG-45.html'), ('APPENZELL CATTLE', 'http://www.fci.be/en/nomenclature/APPENZELL-CATTLE-DOG-46.html'),
 				('ENTLEBUCH CATTLE', 'http://www.fci.be/en/nomenclature/ENTLEBUCH-CATTLE-DOG-47.html'), ('KARELIAN BEAR', 'http://www.fci.be/en/nomenclature/KARELIAN-BEAR-DOG-48.html'),
@@ -186,7 +195,7 @@ FROM
 				('STAFFORDSHIRE BULL TERRIER', 'http://www.fci.be/en/nomenclature/STAFFORDSHIRE-BULL-TERRIER-76.html'), 
 				('CONTINENTAL TOY SPANIEL', 'http://www.fci.be/en/nomenclature/CONTINENTAL-TOY-SPANIEL-77.html'),
 				('WELSH TERRIER', 'http://www.fci.be/en/nomenclature/WELSH-TERRIER-78.html'), ('GRIFFON BRUXELLOIS', 'http://www.fci.be/en/nomenclature/GRIFFON-BRUXELLOIS-80.html'),
-				('GRIFFON BELGE', 'http://www.fci.be/en/nomenclature/GRIFFON-BELGE-81.html'), ('PETIT BRABANÇON', 'http://www.fci.be/en/nomenclature/PETIT-BRABANCON-82.html'),
+				('GRIFFON BELGE', 'http://www.fci.be/en/nomenclature/GRIFFON-BELGE-81.html'), ('PETIT BRABANÃ‡ON', 'http://www.fci.be/en/nomenclature/PETIT-BRABANCON-82.html'),
 				('SCHIPPERKE', 'http://www.fci.be/en/nomenclature/SCHIPPERKE-83.html'), ('BLOODHOUND', 'http://www.fci.be/en/nomenclature/BLOODHOUND-84.html'),
 				('WEST HIGHLAND WHITE TERRIER', 'http://www.fci.be/en/nomenclature/WEST-HIGHLAND-WHITE-TERRIER-85.html'), 
 				('YORKSHIRE TERRIER', 'http://www.fci.be/en/nomenclature/YORKSHIRE-TERRIER-86.html'),
@@ -198,7 +207,7 @@ FROM
 				('BRITTANY SPANIEL', 'http://www.fci.be/en/nomenclature/BRITTANY-SPANIEL-95.html'), ('RAFEIRO OF ALENTEJO', 'http://www.fci.be/en/nomenclature/RAFEIRO-OF-ALENTEJO-96.html'),
 				('GERMAN SPITZ', 'http://www.fci.be/en/nomenclature/GERMAN-SPITZ-97.html'), ('GERMAN WIRE- HAIRED POINTING', 'http://www.fci.be/en/nomenclature/GERMAN-WIRE-HAIRED-POINTING-DOG-98.html'),
 				('WEIMARANER', 'http://www.fci.be/en/nomenclature/WEIMARANER-99.html'), ('WESTPHALIAN DACHSBRACKE', 'http://www.fci.be/en/nomenclature/WESTPHALIAN-DACHSBRACKE-100.html'),
-				('FRENCH BULLDOG', 'http://www.fci.be/en/nomenclature/FRENCH-BULLDOG-101.html'), ('KLEINER MÜNSTERLÄNDER', 'http://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html'),
+				('FRENCH BULLDOG', 'http://www.fci.be/en/nomenclature/FRENCH-BULLDOG-101.html'), ('KLEINER MÃœNSTERLÃ„NDER', 'http://www.fci.be/en/nomenclature/KLEINER-MUNSTERLANDER-102.html'),
 				('GERMAN HUNTING TERRIER', 'http://www.fci.be/en/nomenclature/GERMAN-HUNTING-TERRIER-103.html'), ('GERMAN SPANIEL', 'http://www.fci.be/en/nomenclature/GERMAN-SPANIEL-104.html'),
 				('FRENCH WATER', 'http://www.fci.be/en/nomenclature/FRENCH-WATER-DOG-105.html'), ('BLUE PICARDY SPANIEL', 'http://www.fci.be/en/nomenclature/BLUE-PICARDY-SPANIEL-106.html'),
 				('WIRE-HAIRED POINTING GRIFFON KORTHALS', 'http://www.fci.be/en/nomenclature/WIRE-HAIRED-POINTING-GRIFFON-KORTHALS-107.html'), ('PICARDY SPANIEL', 'http://www.fci.be/en/nomenclature/PICARDY-SPANIEL-108.html'),
@@ -211,9 +220,9 @@ FROM
 				('LABRADOR RETRIEVER', 'http://www.fci.be/en/nomenclature/LABRADOR-RETRIEVER-122.html'), ('FIELD SPANIEL', 'http://www.fci.be/en/nomenclature/FIELD-SPANIEL-123.html'),
 				('IRISH WATER SPANIEL', 'http://www.fci.be/en/nomenclature/IRISH-WATER-SPANIEL-124.html'), ('ENGLISH SPRINGER SPANIEL', 'http://www.fci.be/en/nomenclature/ENGLISH-SPRINGER-SPANIEL-125.html'),
 				('WELSH SPRINGER SPANIEL', 'http://www.fci.be/en/nomenclature/WELSH-SPRINGER-SPANIEL-126.html'), ('SUSSEX SPANIEL', 'http://www.fci.be/en/nomenclature/SUSSEX-SPANIEL-127.html'),
-				('KING CHARLES SPANIEL', 'http://www.fci.be/en/nomenclature/KING-CHARLES-SPANIEL-128.html'), ('SMÅLANDSSTÖVARE', 'http://www.fci.be/en/nomenclature/SMALANDSSTOVARE-129.html'),
-				('DREVER', 'http://www.fci.be/en/nomenclature/DREVER-130.html'), ('SCHILLERSTÖVARE', 'http://www.fci.be/en/nomenclature/SCHILLERSTOVARE-131.html'),
-				('HAMILTONSTÖVARE', 'http://www.fci.be/en/nomenclature/HAMILTONSTOVARE-132.html'), ('FRENCH POINTING DOG - GASCOGNE TYPE', 'http://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html'),
+				('KING CHARLES SPANIEL', 'http://www.fci.be/en/nomenclature/KING-CHARLES-SPANIEL-128.html'), ('SMÃ…LANDSSTÃ–VARE', 'http://www.fci.be/en/nomenclature/SMALANDSSTOVARE-129.html'),
+				('DREVER', 'http://www.fci.be/en/nomenclature/DREVER-130.html'), ('SCHILLERSTÃ–VARE', 'http://www.fci.be/en/nomenclature/SCHILLERSTOVARE-131.html'),
+				('HAMILTONSTÃ–VARE', 'http://www.fci.be/en/nomenclature/HAMILTONSTOVARE-132.html'), ('FRENCH POINTING DOG - GASCOGNE TYPE', 'http://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-GASCOGNE-TYPE-133.html'),
 				('FRENCH POINTING DOG - PYRENEAN TYPE', 'http://www.fci.be/en/nomenclature/FRENCH-POINTING-DOG-PYRENEAN-TYPE-134.html'), ('SWEDISH LAPPHUND', 'http://www.fci.be/en/nomenclature/SWEDISH-LAPPHUND-135.html'),
 				('CAVALIER KING CHARLES SPANIEL', 'http://www.fci.be/en/nomenclature/CAVALIER-KING-CHARLES-SPANIEL-136.html'), ('PYRENEAN MOUNTAIN', 'http://www.fci.be/en/nomenclature/PYRENEAN-MOUNTAIN-DOG-137.html'),
 				('PYRENEAN SHEEPDOG - SMOOTH FACED', 'http://www.fci.be/en/nomenclature/PYRENEAN-SHEEPDOG-SMOOTH-FACED-138.html'), ('IRISH TERRIER', 'http://www.fci.be/en/nomenclature/IRISH-TERRIER-139.html'), 
@@ -246,7 +255,7 @@ FROM
 				('AFFENPINSCHER', 'http://www.fci.be/en/nomenclature/AFFENPINSCHER-186.html'), ('PORTUGUESE POINTING', 'http://www.fci.be/en/nomenclature/PORTUGUESE-POINTING-DOG-187.html'),
 				('SLOUGHI', 'http://www.fci.be/en/nomenclature/SLOUGHI-188.html'), ('FINNISH LAPPONIAN', 'http://www.fci.be/en/nomenclature/FINNISH-LAPPONIAN-DOG-189.html'),
 				('HOVAWART', 'http://www.fci.be/en/nomenclature/HOVAWART-190.html'), ('BOUVIER DES FLANDRES', 'http://www.fci.be/en/nomenclature/BOUVIER-DES-FLANDRES-191.html'),
-				('KROMFOHRLÄNDER', 'http://www.fci.be/en/nomenclature/KROMFOHRLANDER-192.html'), ('BORZOI - RUSSIAN HUNTING SIGHTHOUND', 'http://www.fci.be/en/nomenclature/BORZOI-RUSSIAN-HUNTING-SIGHTHOUND-193.html'),
+				('KROMFOHRLÃ„NDER', 'http://www.fci.be/en/nomenclature/KROMFOHRLANDER-192.html'), ('BORZOI - RUSSIAN HUNTING SIGHTHOUND', 'http://www.fci.be/en/nomenclature/BORZOI-RUSSIAN-HUNTING-SIGHTHOUND-193.html'),
 				('BERGAMASCO SHEPHERD', 'http://www.fci.be/en/nomenclature/BERGAMASCO-SHEPHERD-DOG-194.html'), ('ITALIAN VOLPINO', 'http://www.fci.be/en/nomenclature/ITALIAN-VOLPINO-195.html'),
 				('BOLOGNESE', 'http://www.fci.be/en/nomenclature/BOLOGNESE-196.html'), 
 				('NEAPOLITAN MASTIFF', 'http://www.fci.be/en/nomenclature/NEAPOLITAN-MASTIFF-197.html'),
@@ -331,7 +340,7 @@ FROM
 				('WHITE SWISS SHEPHERD', 'http://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html'), ('TAIWAN', 'http://www.fci.be/en/nomenclature/TAIWAN-DOG-348.html'),
 				('ROMANIAN MIORITIC SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-MIORITIC-SHEPHERD-DOG-349.html'), ('ROMANIAN CARPATHIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-CARPATHIAN-SHEPHERD-DOG-350.html'),
 				('AUSTRALIAN STUMPY TAIL CATTLE', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-STUMPY-TAIL-CATTLE-DOG-351.html'), ('RUSSIAN TOY', 'http://www.fci.be/en/nomenclature/RUSSIAN-TOY-352.html'),
-				('CIMARRÓN URUGUAYO', 'http://www.fci.be/en/nomenclature/CIMARRON-URUGUAYO-353.html'), ('POLISH HUNTING', 'http://www.fci.be/en/nomenclature/POLISH-HUNTING-DOG-354.html'),
+				('CIMARRÃ“N URUGUAYO', 'http://www.fci.be/en/nomenclature/CIMARRON-URUGUAYO-353.html'), ('POLISH HUNTING', 'http://www.fci.be/en/nomenclature/POLISH-HUNTING-DOG-354.html'),
 				('BOSNIAN AND HERZEGOVINIAN - CROATIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/BOSNIAN-AND-HERZEGOVINIAN-CROATIAN-SHEPHERD-DOG-355.html'),
 				('DANISH-SWEDISH FARMDOG', 'http://www.fci.be/en/nomenclature/DANISH-SWEDISH-FARMDOG-356.html'), ('ROMANIAN BUCOVINA SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-BUCOVINA-SHEPHERD-357.html'),
 				('THAI BANGKAEW', 'http://www.fci.be/en/nomenclature/THAI-BANGKAEW-DOG-358.html'), ('MINIATURE BULL TERRIER', 'http://www.fci.be/en/nomenclature/MINIATURE-BULL-TERRIER-359.html'),
@@ -364,7 +373,7 @@ FROM
 					('Satin Angora'),('Himalayan'), ('Jersey Wooly'), ('Velveteen Lop')
 					
 				('Lionhead'), ('Flemish Giant'), ('Continental Giant'), ('Dutch'), ('English Lop'), ('French Lop'), ('Holland Lop'), ('Mini Rex'),
-				('Netherland dwarf'), ('Polish'), ('American'), ('American Fuzzy Lop'), ('American Sable'), ('Argente Brun'), ('Argente Crème'), ('Argente de Champagne'),
+				('Netherland dwarf'), ('Polish'), ('American'), ('American Fuzzy Lop'), ('American Sable'), ('Argente Brun'), ('Argente CrÃ¨me'), ('Argente de Champagne'),
 				('Belgian Hare'), ('Beveren'), ('Blanc de Hotot'), ('Britannia Petite'), ('Californian'), ('Checkered Giant'), ('Chinchilla (Standard)'), ('Chinchilla (American)'),
 				('Chinchilla (Giant)'), ('Cinnamon'), ('Dwarf Hotot'), ('Dwarf Lop (Mini Lop in USA)'), ('English Angora'), ('English Spot'), ('Florida White'), ('French Angora'),
 				('Giant Angora'), ('Giant Papillon'), ('Harlequin'), ('Havana'), ('Himalayan'), ('Jersey Wooly'), ('Lilac'), ('New Zealand'),
