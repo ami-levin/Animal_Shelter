@@ -278,7 +278,7 @@ FROM
 				('FILA BRASILEIRO', 'http://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html'), ('LANDSEER (EUROPEAN CONTINENTAL TYPE)', 'http://www.fci.be/en/nomenclature/LANDSEER-EUROPEAN-CONTINENTAL-TYPE-226.html'),
 				('LHASA APSO', 'http://www.fci.be/en/nomenclature/LHASA-APSO-227.html'), ('AFGHAN HOUND', 'http://www.fci.be/en/nomenclature/AFGHAN-HOUND-228.html'),
 				('SERBIAN TRICOLOUR HOUND', 'http://www.fci.be/en/nomenclature/SERBIAN-TRICOLOUR-HOUND-229.html'), ('TIBETAN MASTIFF', 'http://www.fci.be/en/nomenclature/TIBETAN-MASTIFF-230.html'),
-				 ('TIBETAN SPANIEL', 'http://www.fci.be/en/nomenclature/TIBETAN-SPANIEL-231.html'), ('DEUTSCH STICHELHAAR', 'http://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html'),
+				('TIBETAN SPANIEL', 'http://www.fci.be/en/nomenclature/TIBETAN-SPANIEL-231.html'), ('DEUTSCH STICHELHAAR', 'http://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html'),
 				('LITTLE LION', 'http://www.fci.be/en/nomenclature/LITTLE-LION-DOG-233.html'), ('XOLOITZCUINTLE', 'http://www.fci.be/en/nomenclature/XOLOITZCUINTLE-234.html'),
 				('GREAT DANE', 'http://www.fci.be/en/nomenclature/GREAT-DANE-235.html'), ('AUSTRALIAN SILKY TERRIER', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-SILKY-TERRIER-236.html'),
 				('NORWEGIAN BUHUND', 'http://www.fci.be/en/nomenclature/NORWEGIAN-BUHUND-237.html'), ('MUDI', 'http://www.fci.be/en/nomenclature/MUDI-238.html'),
@@ -336,7 +336,7 @@ FROM
 				('PARSON RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/PARSON-RUSSELL-TERRIER-339.html'), ('SAINT MIGUEL CATTLE', 'http://www.fci.be/en/nomenclature/SAINT-MIGUEL-CATTLE-DOG-340.html'),
 				('BRAZILIAN TERRIER', 'http://www.fci.be/en/nomenclature/BRAZILIAN-TERRIER-341.html'), ('AUSTRALIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-SHEPHERD-342.html'),
 				('ITALIAN CANE CORSO', 'http://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html'), ('AMERICAN AKITA', 'http://www.fci.be/en/nomenclature/AMERICAN-AKITA-344.html'),
-				('JACK RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/JACK-RUSSELL-TERRIER-345.html'), ('DOGO CANARIO', 'http://www.fci.be/en/nomenclature/DOGO-CANARIO-346.html')--,
+				('JACK RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/JACK-RUSSELL-TERRIER-345.html'), ('DOGO CANARIO', 'http://www.fci.be/en/nomenclature/DOGO-CANARIO-346.html'),
 				('WHITE SWISS SHEPHERD', 'http://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html'), ('TAIWAN', 'http://www.fci.be/en/nomenclature/TAIWAN-DOG-348.html'),
 				('ROMANIAN MIORITIC SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-MIORITIC-SHEPHERD-DOG-349.html'), ('ROMANIAN CARPATHIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-CARPATHIAN-SHEPHERD-DOG-350.html'),
 				('AUSTRALIAN STUMPY TAIL CATTLE', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-STUMPY-TAIL-CATTLE-DOG-351.html'), ('RUSSIAN TOY', 'http://www.fci.be/en/nomenclature/RUSSIAN-TOY-352.html'),
@@ -352,8 +352,7 @@ SELECT	'Cat',
 		'https://tica.org/breeds/browse-all-breeds#' + REPLACE(LOWER(Breeds.Breed), ' ', '-')
 FROM
 		(
-			VALUES	('American Bobtail'),('Bengal'), ('Maine Coon'),
-					('Persian'),('Ragdoll'),('Russian Blue'), ('Scottish Fold'), ('Siamese'), ('Sphynx'),('Turkish Angora')	
+			VALUES
 				('Abyssinian'), ('American Bobtail'), ('American Bobtail Shorthair'), ('American Curl'),('American Shorthair'), ('American Wirehair'), ('Australian Mist'), ('Balinese'),
 				('Bengal'), ('Bengal Longhair'), ('Birman'), ('Bombay'), ('British Longhair'), ('British Shorthair'), ('Burmese'), ('Burmilla'),
 				('Burmilla Longhair'), ('Chartreux'), ('Chausie'), ('Cornish Rex'), ('Cymric'), ('Devon Rex'), ('Donskoy'), ('Egyptian Mau'), ('Exotic Shorthair'), ('Havana'), ('Himalayan'), ('Japanese Bobtail'),
@@ -369,9 +368,7 @@ SELECT	'Rabbit',
 		'https://rabbitpedia.com/' + REPLACE(Breeds.Breed, ' ', '-')
 FROM
 		(
-			VALUES	('Lionhead'),('English Lop'), ('French Lop'),('American'),('Belgian Hare'),('Californian'),('Chinchilla (Giant)'), ('English Angora'),
-					('Satin Angora'),('Himalayan'), ('Jersey Wooly'), ('Velveteen Lop')
-					
+			VALUES
 				('Lionhead'), ('Flemish Giant'), ('Continental Giant'), ('Dutch'), ('English Lop'), ('French Lop'), ('Holland Lop'), ('Mini Rex'),
 				('Netherland dwarf'), ('Polish'), ('American'), ('American Fuzzy Lop'), ('American Sable'), ('Argente Brun'), ('Argente Crème'), ('Argente de Champagne'),
 				('Belgian Hare'), ('Beveren'), ('Blanc de Hotot'), ('Britannia Petite'), ('Californian'), ('Checkered Giant'), ('Chinchilla (Standard)'), ('Chinchilla (American)'),
