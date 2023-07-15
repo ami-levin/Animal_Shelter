@@ -538,7 +538,7 @@ CREATE TABLE Reference.Cities
 (
 	State		VARCHAR(20) NOT NULL
 		REFERENCES Reference.States (State),
-	City		VARCHAR(30) NOT NULL,
+	City		VARCHAR(40) NOT NULL,
 	County		VARCHAR(30) NOT NULL,
 	Population	INT			NOT NULL,
 	PRIMARY KEY (State, City),
@@ -559,7 +559,7 @@ WHERE	Population >= @Min_Population; -- Limit sample DB only to main cities
 CREATE TABLE Reference.City_Zip_Codes
 (
 	State		VARCHAR(20) NOT NULL,
-	City		VARCHAR(30) NOT NULL,
+	City		VARCHAR(40) NOT NULL,
 	CONSTRAINT FK_City_Zip_Codes__Cities
 		FOREIGN KEY (State, City)
 		REFERENCES Reference.Cities (State, City),
