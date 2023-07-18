@@ -188,7 +188,7 @@ FROM
 				('ST. BERNARD', 'http://www.fci.be/en/nomenclature/ST-BERNARD-61.html'), ('COARSE-HAIRED STYRIAN HOUND', 'http://www.fci.be/en/nomenclature/COARSE-HAIRED-STYRIAN-HOUND-62.html'),
 				('AUSTRIAN BLACK AND TAN HOUND', 'http://www.fci.be/en/nomenclature/AUSTRIAN-BLACK-AND-TAN-HOUND-63.html'), ('AUSTRIAN PINSCHER', 'http://www.fci.be/en/nomenclature/AUSTRIAN-PINSCHER-64.html'),
 				('MALTESE', 'http://www.fci.be/en/nomenclature/MALTESE-65.html'), ('FAWN BRITTANY GRIFFON', 'http://www.fci.be/en/nomenclature/FAWN-BRITTANY-GRIFFON-66.html'),
-				('PETIT BASSET GRIFFON VENDEEN', 'http://www.fci.be/en/nomenclature/PETIT-BASSET-GRIFFON-VENDEEN-67.html'), ('TYROLEAN HOUND', 'http://www.fci.be/en/nomenclature/YROLEAN-HOUND-68.html'),
+				('PETIT BASSET GRIFFON VENDEEN', 'http://www.fci.be/en/nomenclature/PETIT-BASSET-GRIFFON-VENDEEN-67.html'), ('TYROLEAN HOUND', 'http://www.fci.be/en/nomenclature/TYROLEAN-HOUND-68.html'),
 				('LAKELAND TERRIER', 'http://www.fci.be/en/nomenclature/LAKELAND-TERRIER-70.html'), ('MANCHESTER TERRIER', 'http://www.fci.be/en/nomenclature/MANCHESTER-TERRIER-71.html'),
 				('NORWICH TERRIER', 'http://www.fci.be/en/nomenclature/NORWICH-TERRIER-72.html'), ('SCOTTISH TERRIER', 'http://www.fci.be/en/nomenclature/SCOTTISH-TERRIER-73.html'),
 				('SEALYHAM TERRIER', 'http://www.fci.be/en/nomenclature/SEALYHAM-TERRIER-74.html'), ('SKYE TERRIER', 'http://www.fci.be/en/nomenclature/SKYE-TERRIER-75.html'),
@@ -278,7 +278,7 @@ FROM
 				('FILA BRASILEIRO', 'http://www.fci.be/en/nomenclature/FILA-BRASILEIRO-225.html'), ('LANDSEER (EUROPEAN CONTINENTAL TYPE)', 'http://www.fci.be/en/nomenclature/LANDSEER-EUROPEAN-CONTINENTAL-TYPE-226.html'),
 				('LHASA APSO', 'http://www.fci.be/en/nomenclature/LHASA-APSO-227.html'), ('AFGHAN HOUND', 'http://www.fci.be/en/nomenclature/AFGHAN-HOUND-228.html'),
 				('SERBIAN TRICOLOUR HOUND', 'http://www.fci.be/en/nomenclature/SERBIAN-TRICOLOUR-HOUND-229.html'), ('TIBETAN MASTIFF', 'http://www.fci.be/en/nomenclature/TIBETAN-MASTIFF-230.html'),
-				 ('TIBETAN SPANIEL', 'http://www.fci.be/en/nomenclature/TIBETAN-SPANIEL-231.html'), ('DEUTSCH STICHELHAAR', 'http://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html'),
+				('TIBETAN SPANIEL', 'http://www.fci.be/en/nomenclature/TIBETAN-SPANIEL-231.html'), ('DEUTSCH STICHELHAAR', 'http://www.fci.be/en/nomenclature/DEUTSCH-STICHELHAAR-232.html'),
 				('LITTLE LION', 'http://www.fci.be/en/nomenclature/LITTLE-LION-DOG-233.html'), ('XOLOITZCUINTLE', 'http://www.fci.be/en/nomenclature/XOLOITZCUINTLE-234.html'),
 				('GREAT DANE', 'http://www.fci.be/en/nomenclature/GREAT-DANE-235.html'), ('AUSTRALIAN SILKY TERRIER', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-SILKY-TERRIER-236.html'),
 				('NORWEGIAN BUHUND', 'http://www.fci.be/en/nomenclature/NORWEGIAN-BUHUND-237.html'), ('MUDI', 'http://www.fci.be/en/nomenclature/MUDI-238.html'),
@@ -288,10 +288,10 @@ FROM
 				('BOHEMIAN WIRE-HAIRED POINTING GRIFFON', 'http://www.fci.be/en/nomenclature/BOHEMIAN-WIRE-HAIRED-POINTING-GRIFFON-245.html' ), ('CESKY TERRIER', 'http://www.fci.be/en/nomenclature/CESKY-TERRIER-246.html'),
 				('ATLAS MOUNTAIN DOG (AIDI)', 'http://www.fci.be/en/nomenclature/ATLAS-MOUNTAIN-DOG-AIDI-247.html'), ('PHARAOH HOUND', 'http://www.fci.be/en/nomenclature/PHARAOH-HOUND-248.html'),
 				('MAJORCA MASTIFF', 'http://www.fci.be/en/nomenclature/MAJORCA-MASTIFF-249.html'), ('HAVANESE', 'http://www.fci.be/en/nomenclature/HAVANESE-250.html'),
-				('POLISH LOWLAND SHEEPDOG', 'http://www.fci.be/en/nomenclature/POLISH-LOWLAND-SHEEPDOG-251.html'), ('TATRA SHEPHERD', 'http://www.fci.be/en/nomenclature\TATRA-SHEPHERD-DOG-252.html'),
+				('POLISH LOWLAND SHEEPDOG', 'http://www.fci.be/en/nomenclature/POLISH-LOWLAND-SHEEPDOG-251.html'), ('TATRA SHEPHERD', 'http://www.fci.be/en/nomenclature/TATRA-SHEPHERD-DOG-252.html'),
 				('PUG', 'http://www.fci.be/en/nomenclature/PUG-253.html'), ('ALPINE DACHSBRACKE', 'http://www.fci.be/en/nomenclature/ALPINE-DACHSBRACKE-254.html'),
 				('AKITA', 'http://www.fci.be/en/nomenclature/AKITA-255.html'), ('SHIBA', 'http://www.fci.be/en/nomenclature/SHIBA-257.html'),
-				('JAPANESE TERRIER', 'http://www.fci.be/en/nomenclature/JAPANESE-TERRIER-259.html'), ('TOSA', 'http://www.fci.be/en/nomenclature\TOSA-260.html'),
+				('JAPANESE TERRIER', 'http://www.fci.be/en/nomenclature/JAPANESE-TERRIER-259.html'), ('TOSA', 'http://www.fci.be/en/nomenclature/TOSA-260.html'),
 				('HOKKAIDO', 'http://www.fci.be/en/nomenclature/HOKKAIDO-261.html'), ('JAPANESE SPITZ', 'http://www.fci.be/en/nomenclature/JAPANESE-SPITZ-262.html'),
 				('CHESAPEAKE BAY RETRIEVER', 'http://www.fci.be/en/nomenclature/CHESAPEAKE-BAY-RETRIEVER-263.html'), ('MASTIFF', 'http://www.fci.be/en/nomenclature/MASTIFF-264.html'),
 				('NORWEGIAN LUNDEHUND', 'http://www.fci.be/en/nomenclature/NORWEGIAN-LUNDEHUND-265.html'), ('HYGEN HOUND', 'http://www.fci.be/en/nomenclature/HYGEN-HOUND-266.html'),
@@ -332,11 +332,11 @@ FROM
 				('KANGAL SHEPHERD', 'http://www.fci.be/en/nomenclature/KANGAL-SHEPHERD-DOG-331.html'), ('CZECHOSLOVAKIAN WOLFDOG', 'http://www.fci.be/en/nomenclature/CZECHOSLOVAKIAN-WOLFDOG-332.html'),
 				('POLISH GREYHOUND', 'http://www.fci.be/en/nomenclature/POLISH-GREYHOUND-333.html'), ('KOREA JINDO', 'http://www.fci.be/en/nomenclature/KOREA-JINDO-DOG-334.html'),
 				('CENTRAL ASIA SHEPHERD', 'http://www.fci.be/en/nomenclature/CENTRAL-ASIA-SHEPHERD-DOG-335.html'), ('SPANISH WATER', 'http://www.fci.be/en/nomenclature/SPANISH-WATER-DOG-336.html'),
-				('ITALIAN SHORT-HAIRED SEGUGIO', 'http://www.fci.be/en/nomenclature/ITALIAN-SHORT-HAIRED-SEGUGIO-337.html'), ('THAI RIDGEBACK', 'http://www.fci.be/en/nomenclature\THAI-RIDGEBACK-DOG-338.html'),
+				('ITALIAN SHORT-HAIRED SEGUGIO', 'http://www.fci.be/en/nomenclature/ITALIAN-SHORT-HAIRED-SEGUGIO-337.html'), ('THAI RIDGEBACK', 'http://www.fci.be/en/nomenclature/THAI-RIDGEBACK-DOG-338.html'),
 				('PARSON RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/PARSON-RUSSELL-TERRIER-339.html'), ('SAINT MIGUEL CATTLE', 'http://www.fci.be/en/nomenclature/SAINT-MIGUEL-CATTLE-DOG-340.html'),
 				('BRAZILIAN TERRIER', 'http://www.fci.be/en/nomenclature/BRAZILIAN-TERRIER-341.html'), ('AUSTRALIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-SHEPHERD-342.html'),
 				('ITALIAN CANE CORSO', 'http://www.fci.be/en/nomenclature/ITALIAN-CANE-CORSO-343.html'), ('AMERICAN AKITA', 'http://www.fci.be/en/nomenclature/AMERICAN-AKITA-344.html'),
-				('JACK RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/JACK-RUSSELL-TERRIER-345.html'), ('DOGO CANARIO', 'http://www.fci.be/en/nomenclature/DOGO-CANARIO-346.html')--,
+				('JACK RUSSELL TERRIER', 'http://www.fci.be/en/nomenclature/JACK-RUSSELL-TERRIER-345.html'), ('DOGO CANARIO', 'http://www.fci.be/en/nomenclature/DOGO-CANARIO-346.html'),
 				('WHITE SWISS SHEPHERD', 'http://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html'), ('TAIWAN', 'http://www.fci.be/en/nomenclature/TAIWAN-DOG-348.html'),
 				('ROMANIAN MIORITIC SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-MIORITIC-SHEPHERD-DOG-349.html'), ('ROMANIAN CARPATHIAN SHEPHERD', 'http://www.fci.be/en/nomenclature/ROMANIAN-CARPATHIAN-SHEPHERD-DOG-350.html'),
 				('AUSTRALIAN STUMPY TAIL CATTLE', 'http://www.fci.be/en/nomenclature/AUSTRALIAN-STUMPY-TAIL-CATTLE-DOG-351.html'), ('RUSSIAN TOY', 'http://www.fci.be/en/nomenclature/RUSSIAN-TOY-352.html'),
@@ -352,8 +352,7 @@ SELECT	'Cat',
 		'https://tica.org/breeds/browse-all-breeds#' + REPLACE(LOWER(Breeds.Breed), ' ', '-')
 FROM
 		(
-			VALUES	('American Bobtail'),('Bengal'), ('Maine Coon'),
-					('Persian'),('Ragdoll'),('Russian Blue'), ('Scottish Fold'), ('Siamese'), ('Sphynx'),('Turkish Angora')	
+			VALUES
 				('Abyssinian'), ('American Bobtail'), ('American Bobtail Shorthair'), ('American Curl'),('American Shorthair'), ('American Wirehair'), ('Australian Mist'), ('Balinese'),
 				('Bengal'), ('Bengal Longhair'), ('Birman'), ('Bombay'), ('British Longhair'), ('British Shorthair'), ('Burmese'), ('Burmilla'),
 				('Burmilla Longhair'), ('Chartreux'), ('Chausie'), ('Cornish Rex'), ('Cymric'), ('Devon Rex'), ('Donskoy'), ('Egyptian Mau'), ('Exotic Shorthair'), ('Havana'), ('Himalayan'), ('Japanese Bobtail'),
@@ -369,9 +368,7 @@ SELECT	'Rabbit',
 		'https://rabbitpedia.com/' + REPLACE(Breeds.Breed, ' ', '-')
 FROM
 		(
-			VALUES	('Lionhead'),('English Lop'), ('French Lop'),('American'),('Belgian Hare'),('Californian'),('Chinchilla (Giant)'), ('English Angora'),
-					('Satin Angora'),('Himalayan'), ('Jersey Wooly'), ('Velveteen Lop')
-					
+			VALUES
 				('Lionhead'), ('Flemish Giant'), ('Continental Giant'), ('Dutch'), ('English Lop'), ('French Lop'), ('Holland Lop'), ('Mini Rex'),
 				('Netherland dwarf'), ('Polish'), ('American'), ('American Fuzzy Lop'), ('American Sable'), ('Argente Brun'), ('Argente Crème'), ('Argente de Champagne'),
 				('Belgian Hare'), ('Beveren'), ('Blanc de Hotot'), ('Britannia Petite'), ('Californian'), ('Checkered Giant'), ('Chinchilla (Standard)'), ('Chinchilla (American)'),
@@ -541,7 +538,7 @@ CREATE TABLE Reference.Cities
 (
 	State		VARCHAR(20) NOT NULL
 		REFERENCES Reference.States (State),
-	City		VARCHAR(30) NOT NULL,
+	City		VARCHAR(40) NOT NULL,
 	County		VARCHAR(30) NOT NULL,
 	Population	INT			NOT NULL,
 	PRIMARY KEY (State, City),
@@ -562,7 +559,7 @@ WHERE	Population >= @Min_Population; -- Limit sample DB only to main cities
 CREATE TABLE Reference.City_Zip_Codes
 (
 	State		VARCHAR(20) NOT NULL,
-	City		VARCHAR(30) NOT NULL,
+	City		VARCHAR(40) NOT NULL,
 	CONSTRAINT FK_City_Zip_Codes__Cities
 		FOREIGN KEY (State, City)
 		REFERENCES Reference.Cities (State, City),
